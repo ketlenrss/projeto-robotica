@@ -17,9 +17,9 @@ Este repositório visa fornecer exemplos práticos e completos para a construç�
 Este projeto envolve a construção de um circuito simples com um LED, utilizando Arduino e C++. O código e a explicação detalhada estão disponíveis abaixo.
 
 ### Arquivos do projeto:
-- **Código-fonte**: [main.cpp](projeto-1-circuito/main.cpp)
-- **Imagem do circuito**: [circuito.png](projeto-1-circuito/circuito.png)
-- **Explicação detalhada**: [explicacao.md](projeto-1-circuito/explicacao.md)
+- **Código-fonte**: [main.cpp](codigo-comentado/main.cpp)
+- **Imagem do circuito**: [circuito-led.png](circuito-led.png)
+- **Explicação detalhada**: [explicacao.md](montagem.md)
 
 ## Projeto 2: Outro Projeto
 [🔗 Acesse o projeto completo](projeto-2-outro/README.md)
