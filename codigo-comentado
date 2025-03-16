@@ -1,0 +1,76 @@
+// Definição dos pinos dos LEDs
+int ledVerdeCarro = 2;
+int ledAmareloCarro = 3;
+int ledVermelhoCarro = 4;
+int ledVermelhoPedestre = 5;
+int ledVerdePedestre = 6;
+
+// Definição do pino do botão
+int botaoPedestre = 7;
+
+// Estado do botão
+int estadoBotao = 0; 
+
+void setup() {
+  // Configuração dos pinos como saída
+  pinMode(ledVerdeCarro, OUTPUT);
+  pinMode(ledAmareloCarro, OUTPUT);
+  pinMode(ledVermelhoCarro, OUTPUT);
+  pinMode(ledVermelhoPedestre, OUTPUT);
+  pinMode(ledVerdePedestre, OUTPUT);
+  
+  // Configuração do pino do botão como entrada
+  pinMode(botaoPedestre, INPUT);
+  
+  // Estado inicial: Carro pode passar, pedestre espera
+  digitalWrite(ledVerdeCarro, HIGH);
+  digitalWrite(ledVermelhoPedestre, HIGH);
+}
+
+void loop() {
+  // Verifica se o botão foi pressionado
+  estadoBotao = digitalRead(botaoPedestre);
+  
+  if (estadoBotao == HIGH) {
+    // Botão pressionado - iniciar sequência para pedestres
+    
+    //  Mudar o semáforo do carro para amarelo
+    digitalWrite(ledVerdeCarro, LOW);
+    digitalWrite(ledAmareloCarro, HIGH);
+    delay(2000);
+    
+    //  Mudar o semáforo do carro para vermelho
+    digitalWrite(ledAmareloCarro, LOW);
+    digitalWrite(ledVermelhoCarro, HIGH);
+    
+    
+    //  Permitir a passagem do pedestre (verde)
+    digitalWrite(ledVermelhoPedestre, LOW);
+    digitalWrite(ledVerdePedestre, HIGH);
+    delay(5000); // Pedestre atravessa
+    
+    //  Voltar o semáforo do pedestre para vermelho
+    digitalWrite(ledVerdePedestre, LOW);
+    digitalWrite(ledVermelhoPedestre, HIGH);
+    
+    // Led vermelho pisca
+    digitalWrite(ledVermelhoPedestre, HIGH);
+    delay(500);
+    digitalWrite(ledVermelhoPedestre, LOW);
+    delay(500);
+    digitalWrite(ledVermelhoPedestre, HIGH);
+    delay(500);
+    digitalWrite(ledVermelhoPedestre, LOW);
+    delay(500);
+    digitalWrite(ledVermelhoPedestre, HIGH);
+    delay(500);
+    digitalWrite(ledVermelhoPedestre, LOW);
+    
+    //  Mudar o semáforo do carro de volta para verde
+    digitalWrite(ledVermelhoCarro, LOW);
+    digitalWrite(ledVerdeCarro, HIGH);
+    digitalWrite(ledVermelhoPedestre, HIGH);
+  }
+  
+  // Ciclo se repete enquanto o botão não for pressionado
+}
