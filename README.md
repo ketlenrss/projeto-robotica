@@ -21,7 +21,7 @@ Este projeto envolve a construção de um circuito simples com um LED, utilizand
 - **Imagem do circuito**: [circuito-led.png](circuito-led.png)
 - **Explicação detalhada**: [explicacao.md](montagem.md)
 
-## Projeto 2: Outro Projeto
+## Projeto 2: Controle de Servo Motores com Arduino
 [🔗 Acesse o projeto completo](projeto-2-outro/README.md)
 
 *O segundo projeto está em andamento. Em breve mais detalhes sobre este projeto.*
@@ -31,7 +31,7 @@ Este projeto envolve a construção de um circuito simples com um LED, utilizand
 - **Imagem**: [imagem.jpg](projeto-2-outro/imagem.jpg)
 - **Explicação detalhada**: [explicacao.md](projeto-2-outro/explicacao.md)
 
-## Projeto 3: Mão Robótica
+## Projeto 3: Sitema de controle de mão robótica
 [🔗 Acesse o projeto completo da Mão Robótica](projeto-3-mao-robotica/README.md)
 
 Neste projeto, você aprenderá como construir uma mão robótica controlada por um Arduino. O código, imagens e explicações estão disponíveis abaixo.
