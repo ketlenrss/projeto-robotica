@@ -1,0 +1,62 @@
+#include <Servo.h>  // Inclui a biblioteca Servo.h
+
+// Definições do servo
+Servo meuServo;
+int pinoPot = A1;  // Pino do potenciômetro
+
+// Definições do sensor ultrassônico
+const int trigPin = 5;  // Pino Trigger do sensor
+const int echoPin = 6;  // Pino Echo do sensor
+long duracao;
+int distancia;
+
+void setup() {
+  // Configuração do servo
+  meuServo.attach(2);  // Define o pino do servo
+  pinMode(pinoPot, INPUT);  // Define o pino do potenciômetro como entrada
+
+  // Configuração do sensor ultrassônico
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+
+  Serial.begin(9600);  // Inicia a comunicação serial para monitoramento
+}
+
+void loop() {
+  // Leitura do potenciômetro (mantemos isso para que o usuário possa controlar o ângulo manualmente também)
+  int leituraPot = analogRead(pinoPot);
+  int anguloServo = map(leituraPot, 0, 1023, 0, 180);
+
+  // Leitura do sensor ultrassônico
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  duracao = pulseIn(echoPin, HIGH);
+  distancia = duracao * 0.034 / 2;  // Calcula distância em cm
+
+  Serial.print("Distancia: ");
+  Serial.print(distancia);
+  Serial.println(" cm");
+
+  // Verifica se um objeto está próximo (menor que 10 cm)
+  if (distancia > 0 && distancia < 10) {
+    // Faz o servo girar de 0 a 180 graus
+    for (int pos = 0; pos <= 180; pos += 5) {
+      meuServo.write(pos);
+      delay(15);
+    }
+    // Volta o servo para a posição inicial
+    for (int pos = 180; pos >= 0; pos -= 5) {
+      meuServo.write(pos);
+      delay(15);
+    }
+  } else {
+    // Mantém a posição baseada no potenciômetro
+    meuServo.write(anguloServo);
+  }
+
+  delay(100);  // Pequeno atraso para estabilidade
+}
