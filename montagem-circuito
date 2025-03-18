@@ -1,0 +1,11 @@
+Como montar o circuito
+Servo Motor:
+
+Conecte o fio vermelho do servo ao pino 5V do Arduino.
+Conecte o fio preto ou marrom do servo ao pino GND do Arduino.
+Conecte o fio amarelo ou laranja (sinal) do servo ao pino 2 do Arduino.
+Potenciômetro:
+
+O pino central do potenciômetro vai para o pino A2 do Arduino.
+Um dos pinos laterais do potenciômetro conecta ao 5V do Arduino.
+O outro pino lateral do potenciômetro conecta ao GND do Arduino.
