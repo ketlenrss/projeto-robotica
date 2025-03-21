@@ -34,7 +34,6 @@ Faça testes para garantir que a linha está corretamente ajustada e sem folga.
 
 ### 📌 Referência
 
-📌 Referências
 O modelo 3D da mão robótica utilizado neste projeto foi retirado de [Thingiverse - Robotic Prosthetic Hand por grossrc](https://www.thingiverse.com/thing:1691704), licenciado sob [Creative Commons - Attribution license](https://creativecommons.org/licenses/by/4.0/).
 
 O circuito eletrônico foi adaptado a partir do vídeo: [Robotic Hand with Arduino Servo Motors - YouTube](https://www.youtube.com/watch?v=BaVCxOJuXKs).
