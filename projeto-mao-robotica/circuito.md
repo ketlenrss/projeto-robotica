@@ -1,5 +1,26 @@
+Materiais Necessários
 
-🦾 Montagem da Mão Robótica - Passo a Passo
+1 garrafa PET
+Tesoura
+Fita crepe
+Barbante (linha para flexão dos dedos)
+Papelão
+5 sensores flexíveis (Flex Sensor 5)
+1 Arduino Uno
+5 servomotores mini
+5 resistores de 10kΩ
+Protoboard
+Fonte de alimentação 5V-1A (pode ser carregador de celular)
+Cabo USB (para alimentação e programação do Arduino)
+Jumpers (fios para conexões)
+Cabo de rede (UTP, para aproveitar a fiação interna)
+Luva de jardineiro
+Fita isolante
+Cola instantânea (para fixar motores e peças na base)
+Ferro de solda e estanho (para soldagem dos sensores e cabos)
+
+
+Montagem da Mão Robótica - Passo a Passo
 1️⃣ Estrutura dos Dedos
 Defina as dimensões dos dedos.
 Reproduza cada dedo usando fita crepe sobre uma garrafa plástica, marcando todas as medidas necessárias.
