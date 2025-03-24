@@ -31,6 +31,14 @@ Este projeto envolve a construção de um circuito simples com um LED, utilizand
 - **Imagem**: [imagem.jpg](projeto-2-outro/imagem.jpg)
 - **Explicação detalhada**: [explicacao.md](projeto-2-outro/explicacao.md)
 
+Sobre a Pasta "hiperssonico":
+Dentro deste projeto, há uma pasta chamada hiperssonico, que contém uma variação do projeto utilizando sensores ultrassônicos combinados com os servos motores. Esse módulo foi criado para explorar o controle dos servos baseado na distância detectada pelo sensor ultrassônico.
+
+Arquivos dentro da pasta:
+- **Código-fonte**: [outro-codigo.cpp](projeto-2-outro/outro-codigo.cpp)
+- **Imagem**: [imagem.jpg](projeto-2-outro/imagem.jpg)
+- **Explicação detalhada**: [explicacao.md](projeto-2-outro/explicacao.md)
+
 ## Projeto 3: Sitema de controle de mão robótica
 [🔗 Acesse o projeto completo da Mão Robótica](projeto-robotica/mao-robotica)
 
