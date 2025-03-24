@@ -4,25 +4,25 @@
 Este repositório contém três projetos de robótica detalhados no livro. Cada projeto possui código-fonte, explicações detalhadas e imagens para ajudar no aprendizado.
 
 ## Índice
-- [Projeto 1: Circuito](#projeto-1-circuito)
-- [Projeto 2: Outro Projeto](#projeto-2-outro)
-- [Projeto 3: Mão Robótica](#projeto-3-mao-robotica)
+- [Projeto 1: Acendimento de leds](#acendimento-leds)
+- [Projeto 2: Controle de servo motores](#servo-motores)
+- [Projeto 3: Mão Robótica](#mao-robotica)
 
 ## Sobre o Projeto
 Este repositório visa fornecer exemplos práticos e completos para a construção de projetos de robótica. Cada projeto é composto por código em C++ e explicações detalhadas para garantir uma compreensão clara.
 
-## Projeto 1: Circuito
-[🔗 Acesse o projeto completo de circuito](projeto-1-circuito/README.md)
+## Projeto 1: Acendimento de Leds
+[🔗 Acesse o projeto completo de circuito](acendimento-leds)
 
 Este projeto envolve a construção de um circuito simples com um LED, utilizando Arduino e C++. O código e a explicação detalhada estão disponíveis abaixo.
 
 ### Arquivos do projeto:
-- **Código-fonte**: [main.cpp](codigo-comentado/main.cpp)
-- **Imagem do circuito**: [circuito-led.png](circuito-led.png)
-- **Explicação detalhada**: [explicacao.md](montagem.md)
+- **Código-fonte**: [main.cpp](acendimento-leds/codigo-comentado)
+- **Imagem do circuito**: [circuito-led.png](acendimento-leds/circuito-led.png)
+- **Explicação detalhada**: [explicacao.md](acendimento-leds/montagem.md)
 
 ## Projeto 2: Controle de Servo Motores com Arduino
-[🔗 Acesse o projeto completo](projeto-2-outro/README.md)
+[🔗 Acesse o projeto completo](servo-motores)
 
 *O segundo projeto está em andamento. Em breve mais detalhes sobre este projeto.*
 
@@ -32,7 +32,7 @@ Este projeto envolve a construção de um circuito simples com um LED, utilizand
 - **Explicação detalhada**: [explicacao.md](projeto-2-outro/explicacao.md)
 
 ## Projeto 3: Sitema de controle de mão robótica
-[🔗 Acesse o projeto completo da Mão Robótica](projeto-3-mao-robotica/README.md)
+[🔗 Acesse o projeto completo da Mão Robótica](projeto-robotica/mao-robotica)
 
 Neste projeto, você aprenderá como construir uma mão robótica controlada por um Arduino. O código, imagens e explicações estão disponíveis abaixo.
 
