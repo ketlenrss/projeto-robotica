@@ -24,17 +24,15 @@ Este projeto envolve a construção de um circuito simples com um LED, utilizand
 ## Projeto 2: Controle de Servo Motores com Arduino
 [🔗 Acesse o projeto completo](servo-motores)
 
-*O segundo projeto está em andamento. Em breve mais detalhes sobre este projeto.*
-
 ### Arquivos do projeto:
 - **Código-fonte**: [outro-codigo.cpp](projeto-2-outro/outro-codigo.cpp)
 - **Imagem**: [imagem.jpg](projeto-2-outro/imagem.jpg)
 - **Explicação detalhada**: [explicacao.md](projeto-2-outro/explicacao.md)
 
-Sobre a Pasta "hiperssonico":
-Dentro deste projeto, há uma pasta chamada hiperssonico, que contém uma variação do projeto utilizando sensores ultrassônicos combinados com os servos motores. Esse módulo foi criado para explorar o controle dos servos baseado na distância detectada pelo sensor ultrassônico.
+### Sobre a Pasta "hiperssonico":
+Dentro deste projeto, há uma pasta chamada hiperssonico, que contém uma variação do projeto utilizando sensores ultrassônicos combinados com os servos motores. 
 
-Arquivos dentro da pasta:
+### Arquivos dentro da pasta:
 - **Código-fonte**: [outro-codigo.cpp](projeto-2-outro/outro-codigo.cpp)
 - **Imagem**: [imagem.jpg](projeto-2-outro/imagem.jpg)
 - **Explicação detalhada**: [explicacao.md](projeto-2-outro/explicacao.md)
@@ -42,7 +40,10 @@ Arquivos dentro da pasta:
 ## Projeto 3: Sitema de controle de mão robótica
 [🔗 Acesse o projeto completo da Mão Robótica](projeto-robotica/mao-robotica)
 
-Neste projeto, você aprenderá como construir uma mão robótica controlada por um Arduino. O código, imagens e explicações estão disponíveis abaixo.
+Neste projeto, você aprenderá como construir uma mão robótica controlada por um Arduino. O projeto conta com duas versões distintas:
+
+- Versão Manual (com Garrafa PET): Feita utilizando materiais recicláveis, como garrafa plástica, papelão e barbante.
+- Versão Impressa em 3D: Utilizando uma mão robótica impressa em 3D, com detalhes mais precisos.
 
 ### Arquivos do projeto:
 - **Código-fonte**: [main.cpp](projeto-3-mao-robotica/main.cpp)
